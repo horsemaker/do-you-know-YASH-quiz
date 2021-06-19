@@ -7,14 +7,18 @@ console.log("Welcome " + userName + " to - DO YOU KNOW Yash?");
 
 // data of high score
 var highScores = [
+   {
+    name: "Yash's Mom",
+    score: 11,
+  },
   {
     name: "Yash",
-    score: 2,
+    score: 10,
   },
   {
-    name: "Yash's Mom",
-    score: 2,
-  },
+    name: "Vedant",
+    score: 9.5,
+  }
 ]
 
 // play function
@@ -22,26 +26,59 @@ function play(question, answer) {
   var userAnswer = readlineSync.question(question);
 
   if (userAnswer.toUpperCase() === answer.toUpperCase()) {
-    console.log("right!");
+    console.log("Right! Seems like you really know Yash.");
     score = score + 1;
   } else {
-    console.log("wrong!");
+    console.log("Oops! the correct answer is " + answer);
+    console.log("And you call yourself my friend?")
   }
 
-  console.log("current score: ", score);
+  console.log("Current Score: ", score);
   console.log("-----------------")
 }
 
 // array of objects
 var questions = [
   {
-  question: "Where do I live? ",
-  answer: "Mumbai",
+    question: "Where do I live? ",
+    answer: "Mumbai",
   },
   {
-  question: "Which is my favorite series? ",
-  answer: "Silicon Valley",
+    question: "Which is my favorite series? ",
+    answer: "Silicon Valley",
   },
+  {
+    question: "Who is my oldest friend? ",
+    answer: "Vedant",
+  },
+  {
+    question: "What is my favorite subject? ",
+    answer: "Psychology",
+  },
+  {
+    question: "Which is my favorire cartoon character? ",
+    answer: "Pink Panther",
+  },
+  {
+    question: "MCU or DC? ",
+    answer: "MCU",
+  },
+  {
+    question: "Who is my favorite MCU character? ",
+    answer: "that it's a Trick Question - It's everybody!",
+  },
+  {
+    question: "What is my favorite season? ",
+    answer: "Autumn",
+  },
+  {
+    question: "Which is my favorite drink? ",
+    answer: "जल",
+  },
+  {
+    question: "Here's the last question - Which is my favorite song? ",
+    answer: "Ai Meri Zohrajabeen",
+  }
 ]
 
 // loop
