@@ -2,7 +2,7 @@
 
 I just made a [`Do You Know YASH?`](https://replit.com/@horsemaker/end-game?embed=1&output=1) quiz app which tests whether my friends know me. You can also make a similar fun quiz for yourself on [repl.it](https://replit.com).
 
-I made this quiz as a part of neogcamp' level zero. You can refer [this repo](https://github.com/horsemaker/neogcamp-levelZero) for all other codes of neogcamp's level zero.
+I made this quiz as a part of [neogcamp' level zero](https://www.youtube.com/playlist?list=PLzvhQUIpvvuj5KPnyPyWsvgyzNkX_ACPA). You can refer [this repo](https://github.com/horsemaker/neogcamp-levelZero) for all other codes of neogcamp's level zero.
 
 ---
 
